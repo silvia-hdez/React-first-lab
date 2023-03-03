@@ -6,9 +6,44 @@
 
 .header {
   padding: 30px;
+  width: 400px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.header p {
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.header a {
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+
 }
 
 .cards-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 80px;
+  margin-top: 0px;
+}
+
+.App {
+  background-color:rgb(43 28 74);
+  background-image: url("../public/react-logo.svg");
+  height: 600px;
+  background-position: right;
+}
+
+.card {
+  width: 150px;
+  margin-bottom: 200px;
 }
