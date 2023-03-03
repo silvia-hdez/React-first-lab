@@ -1,0 +1,14 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.header {
+  padding: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+}
