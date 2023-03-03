@@ -40,10 +40,15 @@
   background-color:rgb(43 28 74);
   background-image: url("../public/react-logo.svg");
   height: 600px;
+  background-repeat: repeat-y;
   background-position: right;
 }
 
 .card {
   width: 150px;
   margin-bottom: 200px;
+}
+
+.card img {
+  width: 100px;
 }

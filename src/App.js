@@ -11,24 +11,24 @@ const arrCards = [
     id: 1,
     title: "Declarative",
     text: "React makes it painless to create interactive UIs.",
-    image: "/public/icon1.png"
+    image: "/icon1.png"
   },
   {
     id: 2,
     title: "Components",
     text: "Build encapsulated components that manage their state.",
-    image: "/public/icon2.png"
+    image: "/icon2.png"
   },
   {
     title: "Single-way",
     text: "A set of immutable values are passed to the component's.",
-    image: "/public/icon3.png"
+    image: "/icon3.png"
   },
   {
     id: 3,
     title: "JSX",
     text: "Statically-typed. designed to run on modern browsers.",
-    image: "/public/icon4.png"
+    image: "/icon4.png"
   },
 ];
 
@@ -38,7 +38,7 @@ function Navbar(props) {
       {props.links.map((link) => {
         return (
           <a href="#">
-            <img src="{link.image}" alt="{link.title}" />
+            <img src={link.image} alt={link.title} />
           </a>
         );
       })}
@@ -65,12 +65,12 @@ function App() {
             {
               id: 1,
               text: "Ironimg",
-              image: "/public/ironhack-logo.svg",
+              image: "/ironhack-logo.svg",
             },
             {
               id: 2,
               text: "MenuIcon",
-              image: "/public/menu-top.svg",
+              image: "/menu-top.svg",
             },
           ]}
         />
